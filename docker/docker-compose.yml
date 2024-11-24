@@ -9,7 +9,7 @@ services:
     build:
       context: ../
     volumes:
-      - ../config.json:/app/erupe/config.json
+      # - ../config.json:/app/erupe/config.json
       - ../bin:/app/erupe/bin
       - ./savedata:/app/erupe/savedata
     ports:
